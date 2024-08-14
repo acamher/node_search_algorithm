@@ -4,7 +4,7 @@ from classes import node as nd
 from classes import leg as lg
 
 # Creating Network
-f = open('network/A.json')
+f = open('network/B.json')
 data = json.load(f)
 
 network = net.Network(data['name'])

@@ -1,0 +1,48 @@
+{
+    "date":"14/08/2024",
+    "name":"Network B",
+    "nodes": [
+        {
+            "id":"A",
+            "x": -1,
+            "y": 1
+        },
+        {
+            "id":"B",
+            "x": -1,
+            "y": -1
+        },
+        {
+            "id":"C",
+            "x": 1,
+            "y": -1
+        },
+        {
+            "id":"D",
+            "x": 2,
+            "y": 2
+        }
+    ],
+    "legs" : [
+        {
+            "start" : "A",
+            "finish" : "B"
+        },
+        {
+            "start" : "B",
+            "finish" : "C"
+        },
+        {
+            "start" : "A",
+            "finish" : "C"
+        },
+        {
+            "start" : "A",
+            "finish" : "D"
+        },
+        {
+            "start" : "D",
+            "finish" : "B"
+        }
+    ]
+}
